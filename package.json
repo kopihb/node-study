@@ -1,0 +1,28 @@
+{
+  "name": "udemy_nodejs",
+  "version": "1.0.0",
+  "description": "Study",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kopihb/node-study.git"
+  },
+  "author": "Serhiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kopihb/node-study/issues"
+  },
+  "homepage": "https://github.com/kopihb/node-study#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
